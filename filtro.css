@@ -1,0 +1,27 @@
+.input {
+  width: 500px;
+  height: 40px;
+  font-size: 18px;
+}
+
+#lista-de-productos {
+  display: flex;
+  flex-wrap: wrap; /* Añadido para que los productos se ajusten al ancho del contenedor */
+  justify-content: center; /* Añadido para centrar los productos */
+}
+
+.producto {
+  width: 200px;
+  height: 250px; /* Aumenté la altura para que se vea mejor */
+  margin: 10px;
+  padding: 10px; /* Añadido para separar el borde de la imagen */
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.producto img {
+  width: 70%;
+  height: auto;
+}
